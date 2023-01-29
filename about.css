@@ -45,7 +45,7 @@
     font-weight: bold;
     font-family: sans-serif;
     margin-right: 20px;
-    padding-top: 10px;
+    margin-top: 15px;
 }
 
 /* hover navbar*/
@@ -109,5 +109,9 @@
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
+}
+
+.display-5 {
+  margin-top: 15px;
 }
 /* Bootstrap Element End*/
