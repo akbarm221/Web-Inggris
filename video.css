@@ -158,10 +158,12 @@ nav {
     padding-top: 100px;
   }  
 
-
-
   .container-2 {
     padding-top: 150px;
+  }
+
+  .card-text {
+    font-family :Georgia, 'Times New Roman', Times, serif
   }
 
  
