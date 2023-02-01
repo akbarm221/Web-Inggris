@@ -321,3 +321,83 @@ span:nth-child(2) {
   transition: none;
   transition-delay: none;
  }
+
+ @media screen and (max-width: 600px)
+{
+  .h1-content {
+    font-size: 18px;
+  }
+
+  .container-ul {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .list {
+    list-style-type: none;
+    margin-left: 1px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 8px;
+  }
+
+  .ul-logo {
+    align-items: left;
+    height: 0px; 
+    text-align: left;
+  }
+  
+  .list-logo {
+      list-style-type: none;
+      color: rgb(252, 70, 100);
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 5px;
+      /* position:absolute;
+      display: flex;
+      justify-content: start;
+      align-items: start; */
+      left:0;
+      padding-top : 7px;
+      font-size:10px
+
+  }
+  .container ul {
+    list-style: none;
+  }
+  
+  .container li {
+    list-style: none;
+  }
+  
+  .container li a {
+    list-style: none;
+  }
+  
+  li a:before {
+    list-style: none;
+  }
+  
+  li a:hover:before,
+  li a:focus:before {
+    transform: scale(1);
+  }
+
+  .hr-content {
+    width: 200px;
+  }
+
+  .list-modul {
+    list-style-type: none;
+    margin-left: 1px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 10px;
+    font-size: 8px;
+}
+}
