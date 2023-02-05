@@ -95,8 +95,10 @@ nav {
       font-size: 18px;
       text-align: left;
       float: left;
-      padding-top: 20px;
-      padding-left: 20px;
+      padding-top: 18px;
+      margin-right: 5px;
+      margin-left: 10px;
+      
   }
 
   .list-modul {
@@ -166,4 +168,131 @@ nav {
     font-family :Georgia, 'Times New Roman', Times, serif
   }
 
+  @media screen and (max-width: 600px)
+  {
+    .jumbotron {
+      padding-top: 25px;
+      padding-left:100px;
+      max-width: 90%;
+    }
+
+    .container-ul {
+      float: left;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-bottom: 5px;
+      
+    }
+    
+    .list {
+    list-style-type: none;
+    margin-left: 1px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding-top: 5px;
+    }
+    
+    .list a {
+     list-style-type: none ;
+    }
+    
+    .list a:before {
+      list-style-type: none ;
+    }
+    
+    .list a:hover:before,
+    .list a:focus:before {
+      transform: scale(1);
+    }
+  
+    .container-ul {
+      display: inline;
+      float: right;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+  
+      .ul-logo {
+        align-items: left;
+        height: 0px; 
+        text-align: left;
+      }
+      
+      .list-logo {
+          list-style-type: none;
+          color: rgb(252, 70, 100);
+          font-weight: bold;
+          font-family: sans-serif;
+          font-size: 10px;
+          /* position:absolute;
+          display: flex;
+          justify-content: start;
+          align-items: start; */
+          left:0;
+          padding-top : 26px;
+          font-size:10px;
+          width: 0;
+          top:0;
+  }
+
+  .list-modul {
+    list-style-type: none;
+    margin-left: 8px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 10px;
+    font-size:10px;
+    padding-top:5px;
+}
  
+.container-1 {
+  padding-top: 50px;
+  
+}  
+
+.container-2 {
+  padding-top: 200px;
+}
+
+.card-text {
+  font-family :Georgia, 'Times New Roman', Times, serif
+}
+
+.card {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container-1 .card {
+  margin-bottom: 50px;
+  align-items: center;
+  padding-right:50px;
+  border: #981103;
+  
+}
+
+.container-1 .card-img-top {
+  width: 250px;
+  
+}
+
+.container-1 .card-body {
+  width: 250px;
+}
+
+.row {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+
+  }

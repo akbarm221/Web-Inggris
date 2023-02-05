@@ -115,3 +115,151 @@
   margin-top: 15px;
 }
 /* Bootstrap Element End*/
+
+@media screen and (max-width: 600px)
+{
+  * {
+    background-color: black;
+    padding: 0;
+
+}
+  
+  .h1-content {
+    font-size: 18px;
+  }
+
+  .ctnr-ul {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    float: right;
+  }
+
+  .list {
+    list-style-type: none;
+    margin-right: 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 9px;
+    padding-right: 0px;
+    margin:0;
+    padding:0;
+  }
+
+  .ul-logo {
+    align-items: left;
+    height: 0px; 
+    text-align: center;
+    display: flex;
+    float: left;
+    
+    
+  }
+  
+  .list-logo {
+      list-style-type: none;
+      color: rgb(252, 70, 100);
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 10px;
+      width: 0;
+      padding-top: 33.5px;
+
+  }
+
+  .ctnr ul {
+    list-style: none;
+  }
+  
+  .ctnr li {
+    list-style: none;
+  }
+  
+  .ctnr li a {
+    list-style: none;
+  }
+  
+  li a:before {
+    list-style: none;
+  }
+  
+  li a:hover:before,
+  li a:focus:before {
+    transform: scale(1);
+  }
+
+  .hr-content {
+    width: 200px;
+  }
+
+  .list-modul {
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 0px;
+    font-size: 9px;
+    padding-top: 1.25px;
+    margin: 0;
+}
+
+
+.col-sm-6 {
+    padding-top : 0px !important;
+}
+
+
+.h1-about {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lead {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 12px !important;
+}
+
+.display-5 {
+  font-size: 18px !important; 
+}
+
+.jumbotron-1 {
+  padding-left: 10px !important;
+  padding-top: 0px !important;
+  margin-top: 25px !important;
+  width: 100%;
+}
+
+.jumbotron-1 img {
+  padding-left:0 !important;
+
+}
+
+.col-sm-6 {
+  text-align: center !important;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
